@@ -15,12 +15,10 @@ import {
   Link,
   useTheme,
 } from "@geist-ui/react";
-import day from "dayjs";
 
 import { toWords } from "number-to-words";
 import Age from "../core/Methods/Age";
 import { TextShadowDiv } from "../styles";
-import Story from "./story";
 import styles from "../styles/Home.module.css";
 
 const Home: React.FC = () => {
@@ -64,7 +62,7 @@ const Home: React.FC = () => {
                 , Full-Stack Engineer, Writer, Researcher, Podcaster, &
                 Designer.
               </Text>
-              <Button auto type="success-light">
+              <Button auto type="success-light" style={{ marginTop: "1rem" }}>
                 My Story
               </Button>
               <div className={styles.grid}>
