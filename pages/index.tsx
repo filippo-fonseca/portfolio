@@ -50,15 +50,21 @@ const Home: React.FC = () => {
               <TextShadowDiv>
                 <Text h1>👋 Hi there! I'm Filippo Fonseca.</Text>
               </TextShadowDiv>
-              <Text h3>
+              <Text h3 style={{ color: "gray" }}>
                 I'm a {toWords(age.getAge())} year old Entrepreneur, CEO @{" "}
-                <u>
-                  <a href="https://www.zyndicate.app">Zyndicate</a>
-                </u>
+                <a
+                  href="https://www.zyndicate.app"
+                  style={{ color: "#b8b8b8", textDecoration: "none" }}
+                >
+                  Zyndicate
+                </a>
                 , CTO @{" "}
-                <u>
-                  <a href="https://www.safelabs.app">Safe</a>
-                </u>
+                <a
+                  href="https://www.safelabs.app"
+                  style={{ color: "#b8b8b8", textDecoration: "none" }}
+                >
+                  Safe
+                </a>
                 , Full-Stack Engineer, Writer, Researcher, Podcaster, &
                 Designer.
               </Text>

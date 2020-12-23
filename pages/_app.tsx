@@ -43,6 +43,7 @@ function MyApp({ Component, pageProps }) {
               width: "1.5rem",
               marginRight: "1rem",
               verticalAlign: "middle",
+              cursor: "pointer",
             }}
           />
           <Badge.Anchor style={{ verticalAlign: "middle" }}>
