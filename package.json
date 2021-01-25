@@ -15,8 +15,10 @@
     "number-to-words": "1.2.4",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-feather": "2.0.9",
     "react-markdown": "5.0.3",
-    "styled-components": "5.2.1"
+    "styled-components": "5.2.1",
+    "use-last-fm": "0.2.11"
   },
   "devDependencies": {
     "@types/node": "14.14.14",

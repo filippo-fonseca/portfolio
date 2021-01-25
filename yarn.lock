@@ -3339,6 +3339,13 @@ react-dom@17.0.1:
     object-assign "^4.1.1"
     scheduler "^0.20.1"
 
+react-feather@2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/react-feather/-/react-feather-2.0.9.tgz#6e42072130d2fa9a09d4476b0e61b0ed17814480"
+  integrity sha512-yMfCGRkZdXwIs23Zw/zIWCJO3m3tlaUvtHiXlW+3FH7cIT6fiK1iJ7RJWugXq7Fso8ZaQyUm92/GOOHXvkiVUw==
+  dependencies:
+    prop-types "^15.7.2"
+
 react-is@16.13.1, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -4280,6 +4287,11 @@ url@^0.11.0:
   dependencies:
     punycode "1.3.2"
     querystring "0.2.0"
+
+use-last-fm@0.2.11:
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/use-last-fm/-/use-last-fm-0.2.11.tgz#78c7b1efaea6717b13d25c34a62584bd39e7f58a"
+  integrity sha512-+59M4Zx7gYG1FO2eWp0GyGTLzN9Zs6t/USY3iv5ZUmkRGBkdH6/7HfMyq+tu2wWrBqtnKEm9T4oUQ6s6ywONRw==
 
 use-subscription@1.5.1:
   version "1.5.1"

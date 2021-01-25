@@ -20,6 +20,7 @@ import { toWords } from "number-to-words";
 import Age from "../core/Methods/Age";
 import { TextShadowDiv } from "../styles";
 import styles from "../styles/Home.module.css";
+import Spotify from "../components/Spotify";
 
 const Home: React.FC = () => {
   const age = new Age();
@@ -72,12 +73,16 @@ const Home: React.FC = () => {
                 My Story
               </Button>
               <div className={styles.grid}>
-                <a href="/" className={styles.card}>
+                <a href="/programming" className={styles.card}>
                   <h3>🧪 Programming &rarr;</h3>
                   <p>My stack, experience, & Full-Stack developer portfolio.</p>
                 </a>
 
-                <a href="/" className={styles.card}>
+                <a
+                  href="https://github.com/filippo-fonseca/learning"
+                  target="_blank"
+                  className={styles.card}
+                >
                   <h3>🧠 Learning &rarr;</h3>
                   <p>
                     My learning journey (from engineering to microbiology and
@@ -100,6 +105,7 @@ const Home: React.FC = () => {
                   </p>
                 </a>
               </div>
+              <Spotify />
             </Col>
           </Row>
         </div>
